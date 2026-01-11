@@ -1,21 +1,41 @@
-<<<<<<< HEAD
 # Portfolio
-A clean, modern portfolio showcasing my skills, projects, and experience, built to highlight my work and professional journey.
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern portfolio website showcasing my skills, projects, and experience. Built to highlight my work and professional journey.
 
-Currently, two official plugins are available:
+Live Demo → https://pratik-portfolio-dbc87.web.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About Me
 
-## React Compiler
+Hi! I’m **Pratik Gorai**, a passionate developer who loves building web applications and learning new technologies. This portfolio showcases some of my best projects, skills, and contact information.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 💻 **Role:** Web Developer  
+- 🌍 **Location:** Bihar, India  
+- 📫 **Email:** pratikgorai@example.com  
+- 📌 **GitHub:** https://github.com/Pratikgorai06  
+- 🔗 **Live Portfolio:** *(Add deployment link when live)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> f380432 (A clean, modern portfolio showcasing my skills, projects, and experience, built to highlight my work and professional journey.)
+## 📦 Built With
+
+This project uses modern web tools and frameworks:
+
+- ⚛️ **React**  
+- 🛠 **Vite**  
+- 🎨 **Tailwind CSS / Custom CSS** *(if used)*  
+- 📁 Organized file structure for components & sections
+
+---
+
+## 🧠 Features
+
+- 📌 Hero section with introduction  
+- 🛠 Projects showcase with images & links  
+- 💼 Experience & Skills  
+- 📮 Contact form or contact section
+- 💡 Responsive & interactive layout
+
+---
+
+## 🗂 Project Structure
+

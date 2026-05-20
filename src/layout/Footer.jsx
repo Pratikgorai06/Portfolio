@@ -18,6 +18,7 @@ const footerLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
+  { href: "#achievements", label: "Achievements" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -34,7 +35,7 @@ export const Footer = () => {
               PRATIK<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pratik Gorai. All rights reserved.
+              © {currentYear} PRATIK GORAI. All rights reserved.
             </p>
           </div>
 

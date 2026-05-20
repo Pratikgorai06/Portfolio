@@ -3,40 +3,40 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "YatraTrack",
+    title: "NexaPrep",
     description:
-      "A travel planning and tracking web application that helps users manage destinations with a clean, responsive interface.",
-    image: "/projects/yatratrack.png",
-    tags: ["React", "JavaScript", "CSS"],
-    link: "https://yatratrack.onrender.com/",
-    github: "https://github.com/Pratikgorai06/YatraTrack",
+      "Engineered a white-label mock test platform tailored for coaching institutes. Implemented advanced features including an NTA Exam Simulator, AI-driven doubt solving, performance analytics, and comprehensive resource management.",
+    image: "/projects/nexaprep.png",
+    tags: ["Full Stack", "React", "Node.js", "AI"],
+    link: "http://nexaprep.com/",
+    github: null,
   },
   {
-    title: "Wanderlust",
+    title: "Campus Mate",
     description:
-      "A full-stack travel listing web app where users can explore destinations, view details, and interact with listings.",
-    image: "/projects/wanderlust.png",
-    tags: ["Node.js", "Express", "MongoDB", "EJS"],
-    link: "https://wanderlust-0oy8.onrender.com/",
-    github: "https://github.com/Pratikgorai06/Wanderlust",
+      "Architected a college ERP system featuring role-based dashboards to track attendance, manage notes, process fee payments, and distribute notices. Designed responsive frontend interfaces seamlessly integrated with an efficient backend architecture.",
+    image: "/projects/campus.png",
+    tags: ["ERP", "React", "Node.js", "Dashboard"],
+    link: "https://tinyurl.com/2xnujlca",
+    github: null,
   },
   {
-    title: "WeatherDesk",
+    title: "IIC Website & ESUMMIT26",
     description:
-      "A weather dashboard that shows real-time weather data using public APIs, with a simple and intuitive user interface.",
-    image: "/projects/weatherdesk.png",
-    tags: ["JavaScript", "API", "HTML", "CSS"],
-    link: "https://weatherdesk.onrender.com",
-    github: "https://github.com/Pratikgorai06/WeatherDesk",
+      "Developed, optimized, and continuously maintained the official websites for the IIC and the flagship entrepreneurship event at BIT Sindri.",
+    image: "/projects/esummit.png",
+    tags: ["Web Design", "UI/UX", "Frontend"],
+    link: "https://esummit.bitsindri.ac.in/",
+    github: "https://github.com/Pratikgorai06/E-Summit",
   },
   {
-    title: "Calculator App",
+    title: "QRWeds SEO Optimization",
     description:
-      "A responsive calculator application built to strengthen JavaScript fundamentals and UI interaction logic.",
-    image: "/projects/calculator.png",
-    tags: ["JavaScript", "HTML", "CSS"],
-    link: "https://pratikgorai06.github.io/calculator/",
-    github: "https://github.com/Pratikgorai06/calculator",
+      "Boosted website search visibility and indexing through targeted metadata optimization. Refined site structure and mobile responsiveness to significantly enhance overall user experience and load performance.",
+    image: "/projects/qrweds.png",
+    tags: ["SEO", "Performance", "Frontend"],
+    link: "https://qrweds.in/",
+    github: null,
   },
 ];
 
@@ -86,20 +86,26 @@ export const Projects = () => {
 
                 {/* Overlay Links */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a
-                    href={project.link}
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                  >
-                    <ArrowUpRight className="w-5 h-5" />
-                  </a>
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                  >
-                    <Github className="w-5 h-5" />
-                  </a>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    >
+                      <ArrowUpRight className="w-5 h-5" />
+                    </a>
+                  )}
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    >
+                      <Github className="w-5 h-5" />
+                    </a>
+                  )}
                 </div>
               </div>
 

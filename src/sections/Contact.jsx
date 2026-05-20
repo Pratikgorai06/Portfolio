@@ -88,10 +88,10 @@ export const Contact = () => {
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
                   <a
-                    href="mailto:pratikgorai06@gmail.com"
+                    href="mailto:pratikgoraiofficial@gmail.com"
                     className="font-semibold text-primary hover:underline"
                   >
-                    pratikgorai06@gmail.com
+                    pratikgoraiofficial@gmail.com
                   </a>
                 </div>
               </div>

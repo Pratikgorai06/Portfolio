@@ -10,18 +10,22 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
   "React",
   "Node.js",
-  "Express",
-  "MYSQL",
+  "Express.js",
   "MongoDB",
   "Tailwind CSS",
+  "Firebase",
+  "Vercel",
+  "Render",
   "Figma",
   "Git",
-  "GitHub Actions",
-  "Firebase",
-  "Render",
-  "Video Editing",
+  "GitHub",
+  "UI/UX Design",
+  "SEO Optimization",
 ];
 
 export const Hero = () => {
@@ -76,7 +80,7 @@ export const Hero = () => {
               </h1>
 
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                I’m Pratik Gorai, a Full-Stack Web Developer with experience in
+                I’m PRATIK GORAI, a Full-Stack Web Developer with experience in
                 building responsive JavaScript applications using Node.js,
                 Express, and React. I enjoy crafting practical tools and
                 websites, from user authentication systems to interactive web
@@ -144,7 +148,7 @@ export const Hero = () => {
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
                   src="/profile-photo.jpg"
-                  alt="Pratik Gorai"
+                  alt="PRATIK GORAI"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
@@ -161,7 +165,7 @@ export const Hero = () => {
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">5+</div>
                   <div className="text-xs text-muted-foreground">
-                    Months Exp.
+                    Live Projects
                   </div>
                 </div>
               </div>

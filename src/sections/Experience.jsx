@@ -1,29 +1,29 @@
 const experiences = [
   {
-    period: "Aug 2025 — Present",
-    role: "Frontend Developer",
-    company: "Independent Projects",
+    period: "Recent",
+    role: "Founder & Lead Developer",
+    company: "NexaPrep",
     description:
-      "Building modern, responsive user interfaces using React and Tailwind CSS. Focused on component reusability, clean UI structure, and translating designs into scalable frontend code with attention to performance and accessibility.",
-    technologies: ["React", "JavaScript", "Tailwind CSS"],
+      "Spearheaded the development and launch of an educational technology platform.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "AI"],
     current: true,
   },
   {
-    period: "Sep 2025 — Nov 2025",
-    role: "UI/UX & Frontend Participant",
-    company: "Code Camps & Technical Competitions",
+    period: "Ongoing",
+    role: "Technical Member",
+    company: "Institution's Innovation Council (IIC), BIT Sindri",
     description:
-      "Worked on time-bound frontend and UI/UX challenges, creating functional prototypes and presenting solutions to senior reviewers. Improved product thinking, design-to-code workflow, and learned to iterate quickly based on feedback.",
-    technologies: ["UI/UX", "Prototyping", "Frontend Development"],
+      "Managed the official digital presence and coordinated technical events at the institute.",
+    technologies: ["Web Development", "Event Management", "Leadership"],
     current: false,
   },
   {
-    period: "Oct 2025 — Dec 2025",
-    role: "Technical Activities Contributor",
-    company: "College-Level Events",
+    period: "Freelance",
+    role: "UI/UX Designer & Developer",
+    company: "Independent Projects",
     description:
-      "Actively participated in technical screenings, team-based competitions, and collaborative events. Developed teamwork, communication, and the ability to perform under pressure while balancing academics and skill development.",
-    technologies: ["Teamwork", "Communication", "Problem Solving"],
+      "Designed responsive front-end interfaces and optimized user experiences for various web platforms.",
+    technologies: ["UI/UX Design", "Figma", "Frontend Development"],
     current: false,
   },
 ];

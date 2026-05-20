@@ -3,27 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Full-Stack Development",
     description:
-      "Writing clear, readable, and maintainable code using best practices.",
+      "Architecting scalable web applications using the MERN stack and modern tools.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Proven Performer",
     description:
-      "Building fast, responsive web applications with a focus on efficiency.",
+      "3x Hackathon Finalist (including SIH) and multiple design competition winner.",
   },
   {
     icon: Users,
-    title: "Collaboration",
+    title: "Leadership & Collaboration",
     description:
-      "Enjoy working with others, sharing ideas, and learning from feedback.",
+      "Technical Member at IIC, organizing events and leading development teams.",
   },
   {
     icon: Lightbulb,
-    title: "Continuous Learning",
+    title: "Problem Solving",
     description:
-      "Always exploring new tools and improving my development skills.",
+      "Regularly competing in technical challenges to architect real-world solutions.",
   },
 ];
 
@@ -56,12 +56,11 @@ export const About = () => {
               </p>
 
               <p>
-                I primarily work with{" "}
-                <span className="text-foreground">React</span>,{" "}
-                <span className="text-foreground">JavaScript</span>, and{" "}
-                <span className="text-foreground">Node.js</span>, building
-                projects such as authentication systems, dashboards, and
-                API-driven applications.
+                I am currently pursuing my{" "}
+                <span className="text-foreground">B.Tech in Civil Engineering at BIT Sindri</span>. 
+                I primarily work with the{" "}
+                <span className="text-foreground">MERN Stack</span>, building
+                projects ranging from comprehensive college ERP systems to advanced ed-tech platforms.
               </p>
 
               <p>

@@ -6,6 +6,7 @@ const navLinks = [
   { href: "#about", label: "About" },
   { href: "#projects", label: "Projects" },
   { href: "#experience", label: "Experience" },
+  { href: "#achievements", label: "Achievements" },
 ];
 
 export const Navbar = () => {
@@ -33,7 +34,7 @@ export const Navbar = () => {
           href="#"
           className="text-xl font-bold tracking-tight hover:text-primary"
         >
-          Pratik Gorai<span className="text-primary"></span>
+          PRATIK GORAI<span className="text-primary"></span>
         </a>
 
         {/* Desktop Nav */}
